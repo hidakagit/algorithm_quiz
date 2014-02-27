@@ -1,0 +1,10 @@
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\bin\Debug\quiz4.exe.config
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\bin\Debug\quiz4.exe
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\bin\Debug\quiz4.pdb
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\bin\Debug\quiz4.xml
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\obj\Debug\quiz4.Form1.resources
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\obj\Debug\quiz4.Resources.resources
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\obj\Debug\quiz4.vbproj.GenerateResource.Cache
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\obj\Debug\quiz4.exe
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\obj\Debug\quiz4.xml
+C:\Users\Makoto\algorithm_quiz\no4\quiz4\quiz4\obj\Debug\quiz4.pdb
