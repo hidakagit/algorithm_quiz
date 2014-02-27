@@ -37,6 +37,7 @@
 
     'キューのサイズを取得
     Public Function size(ByVal value As T)
-        Return queue.size
+        Return Val(queue.size + stacktmp.size)
     End Function
+
 End Class
