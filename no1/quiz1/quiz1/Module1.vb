@@ -2,13 +2,10 @@
 
     Public Function Quiz1_a(ByVal str1 As String) As Boolean
 
-        Dim str_length As Integer = str1.Length '文字列の長さ
         Dim str_buf() As String 'バッファ
         Dim flg As Boolean = False '重複を見つければTrue
 
-        Call 部品初期化()
-
-        For i As Integer = 0 To str_length - 1
+        For i As Integer = 0 To str1.Length - 1
             ReDim Preserve str_buf(i)
             str_buf(i) = str1(i) 'バッファに文字列を一文字ずつ入れる
 
@@ -28,8 +25,37 @@
         Return False
     End Function
 
-    Public Sub 部品初期化()
-        Form1.Label2.Text = "結果表示"
-    End Sub
+    Public Function isSubstring(ByVal str1 As String, ByVal str2 As String) As Boolean
+        Dim strindex As Integer = InStr(str1, str2)
+        If Not strindex = 0 Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
+
+    Public Function Quiz1_c(ByVal str1 As String, ByVal str2 As String) As Boolean
+
+        Dim str1buf As String = vbNullString 'バッファ
+        Dim flg As Boolean = False '重複を見つければTrue
+        Dim s1, s2 As String
+
+        For i As Integer = 0 To str1.Length - 1
+            str1buf = str1buf & str1(i)
+            If isSubstring(str2, str1buf) = False Then
+                str1buf.Remove(str1buf.Length - 1, 1)
+                Exit For
+            End If
+        Next
+
+        s1 = str1.Replace(str1buf, "")
+        s2 = str2.Replace(str1buf, "")
+
+        If s1 = s2 Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
 
 End Module
