@@ -1,0 +1,9 @@
+C:\Users\Makoto\algorithm_quiz\no2\quiz2\quiz2\bin\Debug\quiz2.exe.config
+C:\Users\Makoto\algorithm_quiz\no2\quiz2\quiz2\bin\Debug\quiz2.exe
+C:\Users\Makoto\algorithm_quiz\no2\quiz2\quiz2\bin\Debug\quiz2.pdb
+C:\Users\Makoto\algorithm_quiz\no2\quiz2\quiz2\bin\Debug\quiz2.xml
+C:\Users\Makoto\algorithm_quiz\no2\quiz2\quiz2\obj\Debug\quiz2.Resources.resources
+C:\Users\Makoto\algorithm_quiz\no2\quiz2\quiz2\obj\Debug\quiz2.vbproj.GenerateResource.Cache
+C:\Users\Makoto\algorithm_quiz\no2\quiz2\quiz2\obj\Debug\quiz2.exe
+C:\Users\Makoto\algorithm_quiz\no2\quiz2\quiz2\obj\Debug\quiz2.xml
+C:\Users\Makoto\algorithm_quiz\no2\quiz2\quiz2\obj\Debug\quiz2.pdb
