@@ -1,0 +1,10 @@
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\bin\Debug\quiz3.exe.config
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\bin\Debug\quiz3.exe
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\bin\Debug\quiz3.pdb
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\bin\Debug\quiz3.xml
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\obj\Debug\quiz3.Form1.resources
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\obj\Debug\quiz3.Resources.resources
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\obj\Debug\quiz3.vbproj.GenerateResource.Cache
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\obj\Debug\quiz3.exe
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\obj\Debug\quiz3.xml
+C:\Users\Makoto\algorithm_quiz\no3\quiz3\quiz3\obj\Debug\quiz3.pdb
