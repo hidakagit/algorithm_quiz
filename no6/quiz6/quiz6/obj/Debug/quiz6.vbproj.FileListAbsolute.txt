@@ -1,0 +1,10 @@
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\bin\Debug\quiz6.exe.config
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\bin\Debug\quiz6.exe
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\bin\Debug\quiz6.pdb
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\bin\Debug\quiz6.xml
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\obj\Debug\quiz6.Form1.resources
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\obj\Debug\quiz6.Resources.resources
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\obj\Debug\quiz6.vbproj.GenerateResource.Cache
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\obj\Debug\quiz6.exe
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\obj\Debug\quiz6.xml
+C:\Users\Makoto\algorithm_quiz\no6\quiz6\quiz6\obj\Debug\quiz6.pdb
