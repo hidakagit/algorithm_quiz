@@ -116,10 +116,9 @@ Public Class Form1
                     max_dispoint = max_b
                 End If
 
-                'この2点を含むようなルートは基本的に避けなければならない
+                'このmax_dispointを含むようなルートは基本的に避けなければならない
                 For i As Integer = 1 To flower_distance.Length - 1
-                    Dim tmpstr As String = CStr(flower_distance(i).index_a) & CStr(flower_distance(i).index_b)
-                    If InStr(tmpstr, CStr(max_dispoint)) = 0 Then
+                    If Not (flower_distance(i).index_a = max_dispoint Or flower_distance(i).index_b = max_dispoint) Then
                         Return (flower_distance(i).distance / 2.0)
                     End If
                 Next
