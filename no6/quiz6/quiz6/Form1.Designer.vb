@@ -47,7 +47,6 @@ Partial Class Form1
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(80, 19)
         Me.TextBox1.TabIndex = 1
-        Me.TextBox1.Text = "3"
         '
         'Label2
         '
@@ -64,7 +63,7 @@ Partial Class Form1
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(269, 83)
         Me.RichTextBox1.TabIndex = 3
-        Me.RichTextBox1.Text = "(20, 10, 2), (30, 10, 3), (40, 10, 3)"
+        Me.RichTextBox1.Text = ""
         '
         'Label3
         '

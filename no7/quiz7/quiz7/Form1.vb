@@ -19,7 +19,7 @@ Public Class Form1
         Call 小惑星情報取得()
 
         If Not wakusei.Length = K Then
-            MsgBox("Nの数と植物の数が一致しません")
+            MsgBox("Nの数が一致しません")
             Exit Sub
         End If
 
@@ -103,18 +103,20 @@ Public Class Form1
         Next
         '多い順にソート
         Array.Sort(waku, waku_index)
-        Array.Reverse(waku_index)
+        Array.Reverse(waku)
 
         Dim ans() As Integer '出力カウント
 
         Dim finflg As Boolean = False
+        Dim ansc As Integer = 0
         For i As Integer = 999 To 0 Step -1
-            ReDim Preserve ans(999 - i)
-            ans(999 - i) = waku_index(waku(i))
-            finflg = 終了判定(ans(999 - i))
+            ReDim Preserve ans(ansc)
+            ans(ansc) = waku_index(waku(i))
+            finflg = 終了判定(ans(ansc))
             If finflg Then
                 Return ans
             End If
+            ansc += 1
         Next
         Return {-1}
     End Function
