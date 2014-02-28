@@ -11,7 +11,7 @@
             achange = achange + 1 'aの桁が一つ上がるまで足す
         End While
 
-        While Not (CStr(a + achange).Length = CStr(b + achange + ans).Replace("-", "").Length)
+        While Not (CStr(a + achange).Length = CStr(b + achange + ans).Length)
             ans = ans + 1
         End While
 

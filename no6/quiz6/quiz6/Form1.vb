@@ -95,12 +95,13 @@ Public Class Form1
                 Dim sum_b As Double = 0
                 '最も離れている点から各点への平均距離
                 For i As Integer = 1 To flower_distance.Length - 1
-                    Dim tmpstr As String = CStr(flower_distance(i).index_a) & CStr(flower_distance(i).index_b)
-                    If tmpstr.Replace(max_a, "").Length < 2 Then
+                    'max_aから各点への平均距離
+                    If flower_distance(i).index_a = max_a Or flower_distance(i).index_b = max_a Then
                         sum_a = sum_a + flower_distance(i).distance
                         counttmp_a = counttmp_a + 1
                     End If
-                    If tmpstr.Replace(max_b, "").Length < 2 Then
+                    'max_bから各点への平均距離
+                    If flower_distance(i).index_a = max_b Or flower_distance(i).index_b = max_b Then
                         sum_b = sum_b + flower_distance(i).distance
                         counttmp_b = counttmp_b + 1
                     End If
