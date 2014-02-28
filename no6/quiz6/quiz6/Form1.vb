@@ -11,7 +11,6 @@ Public Structure flowerdistance
     Public index_a As Integer
     Public index_b As Integer
     Public distance As Double
-    Public sort_no As Integer 'ソートした時の降順NO
 End Structure
 
 Public Class Form1
