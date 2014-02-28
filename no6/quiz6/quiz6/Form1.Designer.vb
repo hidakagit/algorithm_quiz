@@ -77,6 +77,7 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.ForeColor = System.Drawing.Color.Red
         Me.Label4.Location = New System.Drawing.Point(12, 150)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(47, 12)
@@ -113,7 +114,7 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Quiz6"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
