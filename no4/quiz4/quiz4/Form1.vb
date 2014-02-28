@@ -16,8 +16,16 @@
     End Sub
 
     Private Sub 演算対象読み込み()
-        int1 = Val(TextBox1.Text)
-        int2 = Val(TextBox2.Text)
+        If TextBox1.Text = "" Then
+            int1 = -1
+        Else
+            int1 = Val(TextBox1.Text)
+        End If
+        If TextBox2.Text = "" Then
+            int2 = -1
+        Else
+            int2 = Val(TextBox2.Text)
+        End If
     End Sub
 
     Private Sub 演算(sender As Object, e As EventArgs) Handles Button1.Click
@@ -25,6 +33,11 @@
         Dim ans As Integer 'Answer
         TextBox3.Text = ""
         Call 演算対象読み込み()
+        'エラー処理
+        If int1 = -1 Or int2 = -1 Then
+            MsgBox("変数入力が不正です")
+            Exit Sub
+        End If
 
         Select Case (enzan)
             Case "minus"
